@@ -37,6 +37,10 @@ public class CompteBancari {
         return ("El propietari es diu: " + this.nom + " amb número secret: "
                 + this.numSecret + ". El saldo actual es: " + this.saldo);
     }
+    
+    public void saludo() {
+        System.out.println("Hola, compte bancari JORDI PAZ");
+    }
 
     public boolean ingressar(float quantitat) {
         boolean resultat = false;
